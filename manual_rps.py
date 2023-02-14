@@ -1,14 +1,18 @@
+# Import "random" module
 import random
 
+# Create a function to store the computer's choice
 def get_computer_choice():
     list_rps = ["Rock", "Paper", "Scissors"]
     computer_choice = random.choice(list_rps)
     return computer_choice
 
+# Create a functione to store the user's choice
 def get_user_choice():
     user_choice = input("Select: ")
     return user_choice
 
+# Create a function to define the logic of the game
 def get_winner(computer_choice, user_choice):
     if computer_choice == user_choice:
         print("It is a tie!")
@@ -28,6 +32,7 @@ def get_winner(computer_choice, user_choice):
         else:
             print("You won!")
 
+# Create a function to simulate the game
 def play():
     get_computer_choice()
     get_user_choice()
