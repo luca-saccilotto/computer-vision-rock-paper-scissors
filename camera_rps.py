@@ -1,6 +1,8 @@
+# Import all the modules
 import cv2
 from keras.models import load_model
 import numpy as np
+import time
 
 model = load_model('keras_model.h5')
 cap = cv2.VideoCapture(0)
@@ -29,3 +31,12 @@ cap.release()
 # Destroy all the windows
 cv2.destroyAllWindows()
 
+start_time = time.time()
+
+while True:
+    elapsed_time = time.time() - start_time
+    countdown = 5 - int(elapsed_time)
+    
+    if countdown <= 0:
+        print("You chose rock")
+        break
