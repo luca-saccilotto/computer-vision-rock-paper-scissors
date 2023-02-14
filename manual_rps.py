@@ -1,9 +1,7 @@
 import random
 
-list_rps = ["Rock", "Paper", "Scissors"]
-print(type(list_rps))
-
 def get_computer_choice():
+    list_rps = ["Rock", "Paper", "Scissors"]
     computer_choice = random.choice(list_rps)
     return computer_choice
 
