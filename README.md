@@ -10,3 +10,5 @@ The game uses a deep learning model created with "Teachable Machine" to recogniz
 
 ## Milestone 4
 In Milestone 4, the following functions were defined: `get_computer_choice()`, `get_user_choice()`, `get_winner()`, and `play()`. Specifically, `get_computer_choice()` generates a random choice for the computer, `get_user_choice()` prompts the user for input, and `get_winner()` compares the two choices to determine the winner. Finally, `play()` simulates a game by calling the other functions.
+
+## Milestone 5
