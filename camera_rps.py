@@ -55,7 +55,7 @@ user_wins = 0
 while computer_wins < 3 and user_wins < 3:
     computer_choice = get_computer_choice()
     user_choice = get_prediction()
-    result = get_winner()
+    result = get_winner(computer_choice, user_choice)
     print(result)
 
     if result == "You lost":
