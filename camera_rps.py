@@ -10,7 +10,7 @@ class CameraRPS:
 
     # Initialize the object's attributes
     def __init__(self):
-        self.model = load_model('keras_model.h5')
+        self.model = load_model('../keras_model.h5')
         self.cap = cv2.VideoCapture(0)
         self.data = np.ndarray(shape = (1, 224, 224, 3), dtype = np.float32)
         self.computer_wins = 0
