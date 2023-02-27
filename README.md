@@ -8,8 +8,6 @@ In Milestone 1, the focus was on setting up the development environment. This in
 ## Milestone 2 & 3
 The program uses a deep learning model created with _Teachable Machine_ to recognize different hand gestures. In particular, the model was trained to recognize four classes: rock, paper, scissors, and no gestures. Then, the output stored in the variable `predictions` was exported along with the files `keras_model.h5` and `labels.txt` containing its structure and parameters.
 
-![Screenshot](TM-GitHub.png)
-
 ## Milestone 4
 In Milestone 4, the following functions were defined: `get_computer_choice()`, `get_user_choice()`, `get_winner()`, and `play()`. Specifically, `get_computer_choice()` generates a random choice for the computer, `get_user_choice()` prompts the user for input, and `get_winner()` compares the two choices to determine the winner. Finally, `play()` simulates a game by calling the other functions.
 
