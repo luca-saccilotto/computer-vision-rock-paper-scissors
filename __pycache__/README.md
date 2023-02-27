@@ -1,4 +1,4 @@
-# AiCore - Computer Vision Scenario
+# AiCore Scenario - Computer Vision RPS
 
 This is an implementation of the "Rock-Paper-Scissors" game, that allows the user to play against the computer using their camera. The game uses computer vision algorithms to detect the user's hand gesture and match it with the three possible moves in the game (rock, paper, or scissors).
 
