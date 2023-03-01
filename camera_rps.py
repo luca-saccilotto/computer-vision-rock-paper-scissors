@@ -5,9 +5,6 @@ import numpy as np
 import random
 import time
 
-import sys
-sys.path.insert(0, "../computer-vision-rock-paper-scissors")
-
 # Create the class and methods
 class CameraRPS:
 
